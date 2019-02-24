@@ -33,17 +33,7 @@ namespace IncorrectStringKey.Controllers
                 return NotFound();
             }
             return item;
-        }
-        //// GET /items('00000001')
-        //public ActionResult<Item> Get([FromODataUri]string key)
-        //{
-        //    Item item = _items.FirstOrDefault(itm => itm.Id == key);
-        //    if (item == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return item;
-        //}
+        }  
 
 
 
